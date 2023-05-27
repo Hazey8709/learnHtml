@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--!  Internal CSS Styling   -->
+        <style>
+            div {
+                margin: 0.5rem;
+            }
+        </style>
+
+        <title>Forms in HTML</title>
+    </head>
+    <body>
+        <form action="" method="post" target="">
+            <div>
+                <!--! First Name Field -->
+                <label for="fName">First Name:</label>
+                <input type="text" id="fName" name="fName" placeholder="Joe" />
+            </div>
+
+            <div>
+                <!--! Last Name Field -->
+            </div>
+
+            <div>
+                <!--! Password Field -->
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="pass" />
+            </div>
+
+            <div>
+                <!--! Email Field -->
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Spoon@gmail.com"
+                />
+            </div>
+
+            <div>
+                <!--! Phone Field -->
+                <label for="phone">Phone:</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="1(508)453-4329"
+                />
+            </div>
+
+            <div>
+                <!--! Birthday Field -->
+                <label for="dob">DOB:</label>
+                <input type="date" id="dob" name="dob" />
+            </div>
+            <br />
+
+            <div>
+                <!--! Password Field -->
+                <button type="reset" id="resetBtn">Reset</button>
+                <button type="submit" id="subBtn">Submit</button>
+            </div>
+
+            <div>
+                <!--! Radio Type Field -->
+                <label for="title">Title:</label>
+
+                <label for="mr">Mr.</label>
+                <input type="radio" id="mr" name="mr" value="Mr" />
+
+                <label for="mrs">Mrs.</label>
+                <input type="radio" id="mrs" name="mrs" value="Mrs" />
+
+                <label for="phd">PHD.</label>
+                <input type="radio" id="phd" name="phd" value="PHD" />
+            </div>
+
+            <div>
+                <label for="payment">Payment:</label>
+                <select id="payment" name="payment">
+                    <option value="visa">Visa</option>
+                    <option value="masterCard">MasterCard</option>
+                    <option value="GiftCard">GiftCard</option>
+                </select>
+            </div>
+        </form>
+
+        <div>
+            <iframe src="framename"></iframe>
+        </div>
+    </body>
+</html>

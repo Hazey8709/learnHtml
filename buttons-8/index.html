@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>HTML Buttons</title>
+    </head>
+    <body>
+        <h3>Resource HTML Colors:</h3>
+        <p>
+            https://htmlcolorcodes.com/
+            <br />
+            <a href="https://htmlcolorcodes.com/" target="_blank">Click</a>
+        </p>
+
+        <!--! Button  -->
+        <h3>Buttons</h3>
+        <button>Click</button>
+
+        <!--! Hyper Link Button  -->
+        <a href="https://www.w3schools.com" target="_blank">
+            <button>Hyperlink Button</button>
+        </a>
+        <br />
+        <br />
+
+        <!--! Onclick  Tease-->
+        <button onclick="change()">Click</button>
+        <p id="target" style="font-size: 52px">Hello Noobs</p>
+
+        <script>
+            function change() {
+                let get = document.getElementById("target");
+                get.innerHTML = "GoodBye Noobs";
+                get.style.fontSize = "64px";
+                get.style.textAlign = "center";
+            }
+        </script>
+    </body>
+</html>
