@@ -10,6 +10,16 @@
             div {
                 margin: 0.5rem;
             }
+
+            input {
+                border: 0.1rem solid red;
+                border: none;
+            }
+
+            label {
+                font-weight: bolder;
+                text-decoration: underline;
+            }
         </style>
 
         <title>Forms in HTML</title>
@@ -17,13 +27,14 @@
     <body>
         <form action="" method="post" target="">
             <div>
-                <!--! First Name Field -->
-                <label for="fName">First Name:</label>
-                <input type="text" id="fName" name="fName" placeholder="Joe" />
-            </div>
-
-            <div>
-                <!--! Last Name Field -->
+                <!--!  Name Field -->
+                <label for="name">Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Joe Smoe"
+                />
             </div>
 
             <div>
@@ -62,23 +73,23 @@
             <br />
 
             <div>
-                <!--! Password Field -->
+                <!--! Buttons Field -->
                 <button type="reset" id="resetBtn">Reset</button>
                 <button type="submit" id="subBtn">Submit</button>
             </div>
 
             <div>
                 <!--! Radio Type Field -->
-                <label for="title">Title:</label>
+                <label for="title">Title:</label><br />
 
                 <label for="mr">Mr.</label>
-                <input type="radio" id="mr" name="mr" value="Mr" />
+                <input type="radio" id="mr" name="title" value="Mr" />
 
                 <label for="mrs">Mrs.</label>
-                <input type="radio" id="mrs" name="mrs" value="Mrs" />
+                <input type="radio" id="mrs" name="title" value="Mrs" />
 
                 <label for="phd">PHD.</label>
-                <input type="radio" id="phd" name="phd" value="PHD" />
+                <input type="radio" id="phd" name="title" value="PHD" />
             </div>
 
             <div>
@@ -90,9 +101,9 @@
                 </select>
             </div>
         </form>
-
+        <br />
         <div>
-            <iframe src="framename"></iframe>
+            <iframe src="./index.html"></iframe>
         </div>
     </body>
 </html>
