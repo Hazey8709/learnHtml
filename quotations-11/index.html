@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+
+        <title>Quotations & Citation Elements</title>
+    </head>
+    <body>
+        <h1>Quotations & Citation Elements</h1>
+
+        <h4>Tags & Descriptions</h4>
+
+        <p>< abbr >: Defines an abbreviation or acronym.</p>
+        <p>
+            < address >: Defines contact info for the author/owner of a
+            document.
+        </p>
+        <p>< bdo >: Defines the text direction.</p>
+        <p>
+            < blockquote >: Defines a section that is quoted from another
+            source.
+        </p>
+        <p>< cite >: Defines the title of a work.</p>
+        <p>< q >: Defines a short inline quotation.</p>
+        <hr />
+
+        <h2>Examples</h2>
+        <h3>Block Quote (Blockquote Tag W/cite attribute)</h3>
+        <p>Here is a quote from WWF's website:</p>
+
+        <blockquote cite="http://www.worldwildlife.org">
+            For 60 years, WWF has worked to help people and nature thrive. As
+            the world's leading conservation organization, WWF works in nearly
+            100 countries. At every level, we collaborate with people around the
+            world to develop and deliver innovative solutions that protect
+            communities, wildlife, and the places in which they live.
+        </blockquote>
+        <hr />
+
+        <h3>Short Quotation (q Tag)</h3>
+        <p>Browsers usually insert quotation marks around the q element.</p>
+
+        <p>
+            WWF's goal is to:
+            <q>Build a future where people live in harmony with nature.</q>
+        </p>
+        <hr />
+
+        <h3>Abbreviations (abbr Tag)</h3>
+        <p>
+            The <abbr title="World Health Organization">WHO</abbr> was founded
+            in 1948.
+        </p>
+
+        <p>
+            Marking up abbreviations can give useful information to browsers,
+            translation systems and search-engines.
+        </p>
+        <hr />
+
+        <h3>Contact information (address Tag)</h3>
+        <p>
+            The HTML address element defines contact information (author/owner)
+            of a document or article.
+        </p>
+
+        <address>
+            Written by John Doe.<br />
+            Visit us at:<br />
+            Example.com<br />
+            Box 564, Disneyland<br />
+            USA
+        </address>
+        <hr />
+
+        <h3>Cite work (cite Tag)</h3>
+        <p>
+            The HTML cite element defines the title of a work. Browsers usually
+            display cite elements in italic.
+        </p>
+
+        <!--!  PUT PICTURE BELOW AND DELTE THIS -->
+        <img src="" width="220" height="277" alt="picture not displaying" />
+        <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+        <hr />
+
+        <h3>Bi-Directional Override (bdo Tag)</h3>
+        <p>
+            If your browser supports bi-directional override (bdo), the next
+            line will be written from right to left (rtl):
+        </p>
+
+        <bdo dir="rtl">This line will be written from right to left</bdo>
+    </body>
+</html>
