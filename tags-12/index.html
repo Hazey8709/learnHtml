@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+
+        <title>Tags & More Tags</title>
+    </head>
+    <body>
+        <h1>The map and area elements</h1>
+
+        <p>
+            Click on the Green Bottle, the orange, or the red coffee cup to go
+            to a new page and read more about the topic:
+        </p>
+
+        <img
+            src="./images/abstractArt.jpg"
+            alt="Workplace"
+            usemap="#abstract"
+            width="400"
+            height="379"
+        />
+
+        <map name="abstract">
+            <area
+                shape="rect"
+                coords="70, 200, 230, 991"
+                alt="Red Cup"
+                title="Red Cup"
+                href="redCup.html"
+            />
+            <area
+                shape="rect"
+                coords="150,10,300,200"
+                alt="green bottle"
+                title="Green Bottle"
+                href="greenBottle.html"
+            />
+            <area
+                shape="circle"
+                coords="320,325,65"
+                alt="orange"
+                title="Orange"
+                href="orange.html"
+            />
+        </map>
+    </body>
+</html>
